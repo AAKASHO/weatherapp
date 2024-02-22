@@ -13,6 +13,7 @@ export const useWeatherContext = () => {
 
 export const WeatherProvider = ({ children }) => {
     const [city, setCity] = useState('');
+    
     const [result, setResult] = useState(null);
 
     const apiKey = "d0b1f3b332aea712de95f284306bca64";
